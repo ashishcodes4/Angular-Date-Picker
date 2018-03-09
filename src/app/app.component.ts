@@ -9,8 +9,6 @@ import { Component } from '@angular/core';
 
 
 export class AppComponent {
-  title = 'app';
-  myDate = new Date();
-  isOpen = false;
+  title = "ashish";
   
 }
