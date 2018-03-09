@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { LogoComponent } from './logo/logo.component';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { LogoComponent } from './logo/logo.component';
     AppComponent,
     HeroesComponent,
     DatepickerComponent,
-    LogoComponent
+    LogoComponent,
+    HeroDetailComponent
   ],
   imports: [
     BrowserModule,
