@@ -3,18 +3,16 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
-import { DatepickerComponent } from './datepicker/datepicker.component';
 import { LogoComponent } from './logo/logo.component';
-import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+import { HeroDetailsComponent } from './hero-details/hero-details.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
-    DatepickerComponent,
     LogoComponent,
-    HeroDetailComponent
+    HeroDetailsComponent
   ],
   imports: [
     BrowserModule,
