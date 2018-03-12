@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
+
 
 @Component({
   selector: 'app-data',
@@ -7,7 +7,7 @@ import { Observable } from 'rxjs/Observable';
   styleUrls: ['./data.component.css']
 })
 export class DataComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit() {

@@ -9,6 +9,7 @@ import { HeroService } from './hero.service';
 import { MessageComponent } from './message/message.component';
 import { MessageService } from './message.service';
 import { DataComponent } from './data/data.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -23,7 +24,7 @@ import { DataComponent } from './data/data.component';
   imports: [
     BrowserModule,
     FormsModule,
-    
+    HttpClientModule    
   ],
   providers: [HeroService, MessageService],
   bootstrap: [AppComponent]
